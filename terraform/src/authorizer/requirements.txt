@@ -1,0 +1,10 @@
+# Core JWT handling
+pyjwt==2.8.0
+cryptography==41.0.7  # Required for JWT RSA operations
+
+# HTTP client for token validation
+requests==2.31.0
+
+# AWS SDK is provided by Lambda runtime
+# but listing it here for local development
+boto3==1.34.0

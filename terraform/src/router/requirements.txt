@@ -1,0 +1,7 @@
+# OpenSearch client
+opensearch-py==2.3.2
+requests-aws4auth==1.2.3
+
+# AWS SDK is provided by Lambda runtime
+# but listing it here for local development
+boto3==1.34.0
